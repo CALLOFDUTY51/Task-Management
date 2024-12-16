@@ -1,0 +1,117 @@
+.prioritylistpage{
+    display: flex;
+    width: 100%;
+    
+}
+
+.priority{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    margin-top: 150px;
+}
+
+
+
+.myDiv {
+    width: 400px;
+    height: auto;
+    background: linear-gradient(45deg, #7b0000, #990000, #b20000, #cc0000, #e60000);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.myDiv h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.myDiv div{
+    
+    border-radius:5px ;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(204, 204, 204);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.myDiv1 {
+    width: 400px;
+    height: auto;
+    background: linear-gradient(45deg, #ffe066, #ffd43b, #ffcc00, #ffc400, #ffd000);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #333; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.myDiv1 h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color:white;
+}
+
+.myDiv1 div{
+    border-radius:5px ;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(204, 204, 204);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.myDiv3 {
+    width: 400px;
+    height: auto;
+    background: linear-gradient(45deg, #a0e5ff, #70bfff, #409cff, #0077ff, #0052cc);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.myDiv3 h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.myDiv3 div{
+    border-radius:5px ;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(204, 204, 204);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.span1{
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.span2{
+    border-left: 1px solid rgb(255, 255, 255);
+}
