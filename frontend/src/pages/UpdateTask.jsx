@@ -29,7 +29,7 @@ const UpdateTask = () => {
         ...task,
         dueDate: new Date(task.dueDate).toISOString().split("T")[0],
         assignedDate: new Date(task.assignedDate).toISOString().split("T")[0],
-        newusername:task.assignedTo?.username || null
+        newusername:task.assignedTo?.username 
       });
     } catch (err) {
       console.error(err);
@@ -71,7 +71,7 @@ const UpdateTask = () => {
           <form className="register_content_form" onSubmit={handleSubmit}>
             <input
               type="text"
-              value={taskData.assignedTo?.username}
+              value={taskData.newusername}
               placeholder="Assign to"
               name="newusername"
               onChange={handleChange}
