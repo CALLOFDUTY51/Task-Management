@@ -1,0 +1,98 @@
+.nav-link {
+  position: relative; /* Make sure the element is positioned */
+  text-decoration: none; /* Remove default underline */
+  color: #dcd1d1; /* Adjust color if needed */
+}
+.nav-link:hover{
+  color: black;
+}
+.nav-link::after {
+  content: ""; /* Required to make the pseudo-element appear */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px; /* Adjust thickness of the underline */
+  background-color: #000; /* Underline color */
+  transition: width 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Full width on hover */
+}
+
+.nav__logo i{
+  font-size: 25px;
+  font-weight: 700;
+  color:  #27282a;
+}
+
+
+.icon-badge-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-badge-container .badge {
+  position: absolute;
+  
+  right: -10px;
+  background-color: #ffbe00;;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Product_card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.custom-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+}
+
+.custom-card-img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.custom-card-body {
+  background-color: #f8f9fa;
+}
+
+.custom-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.custom-card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.custom-card-price {
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+.custom-card-button {
+  margin-top: 10px;
+}

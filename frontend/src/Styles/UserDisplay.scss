@@ -1,0 +1,26 @@
+
+
+  .task-list-container {
+  width: 100vw;
+  height: 90vh;
+  
+  background: url("https://shorturl.at/sNpaJ") center/cover no-repeat; /* Add background image */
+
+  
+}
+
+.status-pending {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);  // Red with some transparency
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .status-completed {
+    color: white;
+    background-color: rgba(0, 128, 0, 0.7);  // Green with some transparency
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  

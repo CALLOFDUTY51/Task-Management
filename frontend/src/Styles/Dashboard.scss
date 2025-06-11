@@ -1,0 +1,33 @@
+.Piechart {
+    padding: 20px;
+  }
+  
+  .piechart-container {
+    display: flex;
+    justify-content: space-between; /* Ensures space between the charts */
+    gap: 20px; /* Optional: Adds space between the charts */
+    flex-wrap: wrap; /* Allows the charts to wrap to the next line if there's insufficient space */
+  }
+  
+  .chart {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+    padding: 20px;
+    width: 45%; /* Adjust width to make charts fit side by side */
+    text-align: center; /* Centers the title and chart */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect to scale up the card */
+  .chart:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Title style for the chart */
+  .chart .canvasjs-chart-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
