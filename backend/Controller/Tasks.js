@@ -1,5 +1,5 @@
-const TaskSchema=require("../Model/TaskSchema")
-const UserSchema=require("../Model/userSchema")
+const TaskSchema=require("../Model/Task")
+const UserSchema=require("../Model/user")
 
 const createTask=async (req, res) => {
     try {
@@ -45,7 +45,7 @@ const tasks = await TaskSchema.find({ assignedTo: user._id })
 .sort({
   priority: 1,  // Sort by priority field (ascending)
 })
-.exec();
+
 
 // Sort tasks by custom order after fetching
 tasks.sort((a, b) => priorityOrder[a.priority] - priorityOrder[b.priority]);

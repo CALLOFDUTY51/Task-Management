@@ -127,7 +127,7 @@ const getAllUsersWithTaskStats = async (req, res) => {
       //   })
       // );
   
-      res.status(200).json(userStats);
+      //res.status(200).json(userStats);
     } catch (error) {
       console.error("Error fetching user stats:", error);
       res.status(500).json({ error: "Failed to fetch user statistics" });
