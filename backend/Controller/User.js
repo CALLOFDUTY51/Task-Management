@@ -1,5 +1,5 @@
-const userModel=require("../Model/userSchema")
-const taskModel=require("../Model/TaskSchema")
+const userModel=require("../Model/user")
+const taskModel=require("../Model/Task")
 const bcrypt=require("bcryptjs")
 
 const createUser= async(req,res)=>{
